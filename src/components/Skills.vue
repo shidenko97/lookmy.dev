@@ -22,6 +22,11 @@
                 <div class="col-md-12">
                     <Swiper :images="[
                       {
+                        alt: 'SoftServe Python WEB',
+                        title: 'SoftServe Python WEB',
+                        src: require('../assets/images/certs/Certificate.jpg'),
+                      },
+                      {
                         alt: 'ITEA Python Advanced',
                         title: 'ITEA Python Advanced',
                         src: require('../assets/images/certs/itea-python-advanced.png'),
