@@ -32,6 +32,11 @@
                         src: require('../assets/images/certs/itea-python-advanced.png'),
                       },
                       {
+                        alt: 'SoftServe English Evaluation',
+                        title: 'SoftServe English Evaluation',
+                        src: require('../assets/images/certs/Certificate-1.jpg'),
+                      },
+                      {
                         alt: 'NVIDIA DLI FUNDAMENTALS OF ACCELERATED COMPUTING WITH CUDA PYTHON',
                         title: 'NVIDIA DLI FUNDAMENTALS OF ACCELERATED COMPUTING WITH CUDA PYTHON',
                         src: require('../assets/images/certs/nv-dli-cuda-python.jpg'),
