@@ -13,8 +13,8 @@
 
             </div>
             <p class="short-bio wow fadeInLeft">
-                {{ age }} y.o., The Master of Software Engineering (NTUU "KPI") and web-developer at
-                <a href="https://teedex.net/" rel="nofollow" target="_blank">TEEDEX.NET</a>.
+                {{ age }} y.o., The Master of Software Engineering (NTUU "KPI") and backend developer at
+                <a href="https://www.perion.com/" rel="nofollow" target="_blank">Perion</a>.
                 I have {{ exp_years }}+ years experience in
                 programming, basically as a full-stack web-developer and REST API
                 specialist. During that time I was participated in lotta payment

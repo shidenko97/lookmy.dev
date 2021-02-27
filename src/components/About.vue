@@ -24,16 +24,15 @@
                         <div class="timeline-container timeline-left">
                             <div class="timeline-content wow bounceInDown"
                                  data-wow-delay="0.4s">
-                                <h2>2019</h2>
-                                <p>Retrained for a Python developer</p>
+                                <h2>2020</h2>
+                                <p>Earned a Master's Degree in Software Engineering</p>
                             </div>
                         </div>
                         <div class="timeline-container timeline-right">
                             <div class="timeline-content wow bounceInDown"
                                  data-wow-delay="0.6s">
-                                <h2>2020</h2>
-                                <p>Earned a Master's Degree in Software
-                                    Engineering</p>
+                                <h2>2021</h2>
+                                <p>Started working at Perion</p>
                             </div>
                         </div>
                         <div class="timeline-container timeline-left">
