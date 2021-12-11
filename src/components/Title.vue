@@ -6,20 +6,17 @@
 
                 <Typed :strings="[
                   'Software Engineer',
-                  'Python/PHP developer',
-                  'Have skills of a googling',
-                  'Just a funny guy'
+                  'Python developer',
+                  'Master of googling'
                 ]"/>
 
             </div>
             <p class="short-bio wow fadeInLeft">
-                {{ age }} y.o., The Master of Software Engineering (NTUU "KPI") and backend developer at
-                <a href="https://www.perion.com/" rel="nofollow" target="_blank">Perion</a>.
-                I have {{ exp_years }}+ years experience in
-                programming, basically as a full-stack web-developer and REST API
-                specialist. During that time I was participated in lotta payment
-                integrations, REST API designing, CRM system creating and
-                application/fraud scoring system developing.
+                {{ age }} y.o., Data Engineer at
+                <a href="https://paragone.ai/" rel="nofollow" target="_blank">Paragone.ai</a> with
+                strong software designing & engineering skills. Back-end web developer in past. More than
+                {{ exp_years }} years experience in programming. Have a master's diploma in Software Engineering
+                (NTUU "KPI").
             </p>
         </div>
     </div>

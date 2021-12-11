@@ -121,7 +121,7 @@
           color: '#c8a2c8',
           from: '#b0b3d6',
           to: '#c8a2c8',
-          text: 'Back-end<small>Python, PHP, REST API,</small><small>DRY, SOLID, Patterns</small>',
+          text: 'WEB development<small>FastAPI, Flask, Vue.js</small><small>REST API, async</small>',
           value: 0.80,
         },
         {
@@ -129,7 +129,7 @@
           color: '#f16529',
           from: '#e44d26',
           to: '#f16529',
-          text: 'Front-end <small>Vue, HTML5, CSS3, JS,</small><small>Bootstrap, JQuery</small>',
+          text: 'Software Design <small>Scalable Architecture,</small><small>SOLID, DRY, patterns</small>',
           value: 0.75,
         },
         {
@@ -137,7 +137,7 @@
           color: '#4797d0',
           from: '#549eff',
           to: '#4797d0',
-          text: 'DevOps <small>Docker, git, CI/CD,</small><small>UNIX, Nginx</small>',
+          text: 'CI/CD <small>AWS, Docker, git, </small><small>UNIX, Nginx</small>',
           value: 0.60,
         },
         {
@@ -145,8 +145,8 @@
           color: '#f0a91e',
           from: '#9ece26',
           to: '#f0a91e',
-          text: 'Database<small>MySQL, PostgreSQL,</small><small>Redis, MongoDB</small>',
-          value: 0.55,
+          text: 'Data Engineering<small>Pandas, NumPy, Airflow</small><small>PostgreSQL, MongoDB</small>',
+          value: 0.45,
         },
       ],
       progress_bars: [],
@@ -186,7 +186,7 @@
                 width: '100%',
                 padding: 0,
                 margin: 0,
-                fontSize: '22px',
+                fontSize: '20px',
                 transform: {
                   prefix: true,
                   value: 'translate(-50%, -50%)'

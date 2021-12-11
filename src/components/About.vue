@@ -11,14 +11,14 @@
                             <div class="timeline-content wow bounceInDown"
                                  data-wow-delay="0s">
                                 <h2>2014</h2>
-                                <p>Became interested in programming</p>
+                                <p>Started my way in programming</p>
                             </div>
                         </div>
                         <div class="timeline-container timeline-right">
                             <div class="timeline-content wow bounceInDown"
                                  data-wow-delay="0.2s">
                                 <h2>2015</h2>
-                                <p>Hired to TEEDEX.NET as PHP developer</p>
+                                <p>Became PHP Junior developer at TEEDEX.NET</p>
                             </div>
                         </div>
                         <div class="timeline-container timeline-left">
@@ -32,7 +32,7 @@
                             <div class="timeline-content wow bounceInDown"
                                  data-wow-delay="0.6s">
                                 <h2>2021</h2>
-                                <p>Started working at Perion</p>
+                                <p>Have started working at Paragone.ai</p>
                             </div>
                         </div>
                         <div class="timeline-container timeline-left">
@@ -46,19 +46,17 @@
                 </div>
                 <div class="col-md-6 text-justify about-text">
                     <p class="wow bounceInUp" data-wow-duration="1s">
-                        Full-stack web developer with backend and API preferring.
-                        Have a strong experience in PHP development, but since 2019
-                        also actively interested in Python. Basically have
-                        experience in web-developing, but always open for a new
-                        directions of programming.
+                        Started my way as a developer with PHP programming language. During the
+                        time went I collected more experience and was participated in different API integrations, system designing process and
+                        leadership's tasks. Since last year I started my way as a Data Engineer and I do like it,
+                        so continuing to discover the world of data.
                     </p>
                     <p class="wow bounceInUp" data-wow-duration="1s">
-                        Prefer to work in a team and to have a strong communications
-                        with every member, to increase own and team skills and
-                        produce perfect product. Have active life style and desire
-                        to learn 'n develop something new, as well as adhere to the
-                        rule "Good code is beautiful code" and try to follow to all
-                        requirements of the modern development process.
+                        I'm extremely communicative man so prefer to work in a team with mutually knowledge sharing. Do like to work with a product, but also see something
+                        interesting in other fields too (especially if you are payment system or a bank). Always happy to be a part of open-source project,
+                        to learn something new or to start own project with great idea (I have a lot of them). Have active life style and
+                        desire to learn 'n develop something new, as well as adhere to the rule "Good code is beautiful
+                        code" and try to follow to all requirements of the modern development process.
                     </p>
                 </div>
             </div>
