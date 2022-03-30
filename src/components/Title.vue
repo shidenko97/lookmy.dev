@@ -5,7 +5,8 @@
                 <h1>I'm Serhii Hidenko</h1>
 
                 <Typed :strings="[
-                  'Software Engineer',
+                  'Data Engineer',
+                  'Software Architect',
                   'Python developer',
                   'Master of googling'
                 ]"/>
@@ -13,7 +14,7 @@
             </div>
             <p class="short-bio wow fadeInLeft">
                 {{ age }} y.o., Data Engineer at
-                <a href="https://paragone.ai/" rel="nofollow" target="_blank">Paragone.ai</a> with
+                <a href="https://www.perion.com/" rel="nofollow" target="_blank">Perion</a> with
                 strong software designing & engineering skills. Back-end web developer in past. More than
                 {{ exp_years }} years experience in programming. Have a master's diploma in Software Engineering
                 (NTUU "KPI").

@@ -32,7 +32,7 @@
                             <div class="timeline-content wow bounceInDown"
                                  data-wow-delay="0.6s">
                                 <h2>2021</h2>
-                                <p>Have started working at Paragone.ai</p>
+                                <p>Data Engineer at Perion, WOW 🎉</p>
                             </div>
                         </div>
                         <div class="timeline-container timeline-left">

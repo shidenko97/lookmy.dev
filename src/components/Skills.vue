@@ -121,7 +121,7 @@
           color: '#c8a2c8',
           from: '#b0b3d6',
           to: '#c8a2c8',
-          text: 'WEB development<small>FastAPI, Flask, Vue.js</small><small>REST API, async</small>',
+          text: 'Data Engineering <small>Pandas, Airflow</small><small>NumPy, PySpark</small>',
           value: 0.80,
         },
         {
@@ -129,7 +129,7 @@
           color: '#f16529',
           from: '#e44d26',
           to: '#f16529',
-          text: 'Software Design <small>Scalable Architecture,</small><small>SOLID, DRY, patterns</small>',
+          text: 'Backend API <small>FastAPI, Flask, Django</small><small>and others</small>',
           value: 0.75,
         },
         {
@@ -137,7 +137,7 @@
           color: '#4797d0',
           from: '#549eff',
           to: '#4797d0',
-          text: 'CI/CD <small>AWS, Docker, git, </small><small>UNIX, Nginx</small>',
+          text: 'Databases <small>Relational, Key-Value, </small><small>Document-oriented</small>',
           value: 0.60,
         },
         {
@@ -145,7 +145,7 @@
           color: '#f0a91e',
           from: '#9ece26',
           to: '#f0a91e',
-          text: 'Data Engineering<small>Pandas, NumPy, Airflow</small><small>PostgreSQL, MongoDB</small>',
+          text: 'Cloud development <small>AWS, Docker, git, K8s</small><small>with auto-deployment</small>',
           value: 0.45,
         },
       ],
