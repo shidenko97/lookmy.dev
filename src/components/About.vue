@@ -10,29 +10,29 @@
                         <div class="timeline-container timeline-left">
                             <div class="timeline-content wow bounceInDown"
                                  data-wow-delay="0s">
-                                <h2>2014</h2>
-                                <p>Started my way in programming</p>
+                                <h2>2015</h2>
+                                <p>Became PHP Junior developer at TEEDEX.NET</p>
                             </div>
                         </div>
                         <div class="timeline-container timeline-right">
                             <div class="timeline-content wow bounceInDown"
                                  data-wow-delay="0.2s">
-                                <h2>2015</h2>
-                                <p>Became PHP Junior developer at TEEDEX.NET</p>
+                                <h2>2020</h2>
+                                <p>Earned a Master's Degree in Software Engineering</p>
                             </div>
                         </div>
                         <div class="timeline-container timeline-left">
                             <div class="timeline-content wow bounceInDown"
                                  data-wow-delay="0.4s">
-                                <h2>2020</h2>
-                                <p>Earned a Master's Degree in Software Engineering</p>
+                                <h2>2021</h2>
+                                <p>Data Engineer at Perion</p>
                             </div>
                         </div>
                         <div class="timeline-container timeline-right">
                             <div class="timeline-content wow bounceInDown"
                                  data-wow-delay="0.6s">
-                                <h2>2021</h2>
-                                <p>Data Engineer at Perion, WOW 🎉</p>
+                                <h2>2022</h2>
+                                <p>Software Engineer at EVO</p>
                             </div>
                         </div>
                         <div class="timeline-container timeline-left">
@@ -48,12 +48,12 @@
                     <p class="wow bounceInUp" data-wow-duration="1s">
                         Started my way as a developer with PHP programming language. During the
                         time went I collected more experience and was participated in different API integrations, system designing process and
-                        leadership's tasks. Since last year I started my way as a Data Engineer and I do like it,
-                        so continuing to discover the world of data.
+                        leadership's tasks. Since 2021 I also tried myself as a Data Engineer and developed different
+                        ETL pipelines and data lakes. Currently working as backend developer, creating scalable web applications and REST APIs.
                     </p>
                     <p class="wow bounceInUp" data-wow-duration="1s">
                         I'm extremely communicative man so prefer to work in a team with mutually knowledge sharing. Do like to work with a product, but also see something
-                        interesting in other fields too (especially if you are payment system or a bank). Always happy to be a part of open-source project,
+                        interesting in other fields too. Always happy to be a part of open-source project,
                         to learn something new or to start own project with great idea (I have a lot of them). Have active life style and
                         desire to learn 'n develop something new, as well as adhere to the rule "Good code is beautiful
                         code" and try to follow to all requirements of the modern development process.

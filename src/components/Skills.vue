@@ -121,7 +121,7 @@
           color: '#c8a2c8',
           from: '#b0b3d6',
           to: '#c8a2c8',
-          text: 'Data Engineering <small>Pandas, Airflow</small><small>NumPy, PySpark</small>',
+          text: 'Backend <small>FastAPI, Flask, AIOHTTP</small><small>and others</small>',
           value: 0.80,
         },
         {
@@ -129,7 +129,7 @@
           color: '#f16529',
           from: '#e44d26',
           to: '#f16529',
-          text: 'Backend API <small>FastAPI, Flask, Django</small><small>and others</small>',
+          text: 'Data Engineering <small>Pandas, Airflow</small><small>NumPy, PySpark</small>',
           value: 0.75,
         },
         {

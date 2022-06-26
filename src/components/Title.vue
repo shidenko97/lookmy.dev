@@ -5,18 +5,18 @@
                 <h1>I'm Serhii Hidenko</h1>
 
                 <Typed :strings="[
-                  'Data Engineer',
-                  'Software Architect',
+                  'Software Engineer',
                   'Python developer',
                   'Master of googling'
                 ]"/>
 
             </div>
             <p class="short-bio wow fadeInLeft">
-                {{ age }} y.o., Data Engineer at
-                <a href="https://www.perion.com/" rel="nofollow" target="_blank">Perion</a> with
-                strong software designing & engineering skills. Back-end web developer in past. More than
-                {{ exp_years }} years experience in programming. Have a master's diploma in Software Engineering
+                {{ age }} y.o., Middle Python Software Engineer at
+                <a href="https://evo.company" rel="nofollow" target="_blank">EVO</a> with a solid background in
+                Data Engineering. Guy with a strong understanding of software engineering concepts. Design and build
+                scalable web-applications is my passion. More than {{ exp_years }} years experience in programming.
+                Have a master's diploma in Software Engineering
                 (NTUU "KPI").
             </p>
         </div>

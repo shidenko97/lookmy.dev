@@ -35,15 +35,13 @@
             </div>
             <div class="row portfolio-item">
                 <div class="col-md-6">
-                    <img :src="require('../assets/images/portfolio/es_feeltix.jpg')" alt=""/>
+                    <img :src="require('../assets/images/portfolio/paragone.png')" alt=""/>
                 </div>
                 <div class="col-md-6">
-                    <div class="portfolio-title">es.feeltix.com</div>
-                    <div class="portfolio-text">TICKET SELECTION SYSTEM FOR MUSIC,
-                        THEATER AND SPORTS EVENTS OF THE USA, WHICH IS DESIGNED FOR
-                        THE SPANISH VISITORS. ALL PROCESSES ARE AUTOMATED, INCLUDING
-                        FILLING THE DB WITH EVENTS AND TICKETS (100K+) THROUGH THE
-                        REST API.
+                    <div class="portfolio-title">Paragone.ai</div>
+                    <div class="portfolio-text">PARTICIPATED IN DEVELOPMENT AND SUPPORT SOCIAL ADVERTISEMENT MANAGEMENT SYSTEM.
+                        BASICALLY WORKED ON THE DATA SIDE OF IT AS A DATA ENGINEER, BUILT WHOLE ETL PIPELINES AND
+                        MODIFIED EXISTED MODULES.
                     </div>
                 </div>
             </div>
