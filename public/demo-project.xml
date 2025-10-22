@@ -1,0 +1,797 @@
+<?xml version="1.0" ?>
+<Project xmlns="http://schemas.microsoft.com/project">
+  <Name>Mobile &amp; Web App Development - Demo Project</Name>
+  <Title>Mobile &amp; Web App Development - Demo Project</Title>
+  <Company>Demo Company</Company>
+  <Manager>Project Manager</Manager>
+  <StartDate>2025-01-01T08:00:00</StartDate>
+  <CurrentDate>2025-01-01T08:00:00</CurrentDate>
+  <Calendars>
+    <Calendar>
+      <UID>1</UID>
+      <Name>Standard</Name>
+      <IsBaseCalendar>1</IsBaseCalendar>
+      <WeekDays>
+        <WeekDay>
+          <DayType>1</DayType>
+          <DayWorking>0</DayWorking>
+        </WeekDay>
+        <WeekDay>
+          <DayType>2</DayType>
+          <DayWorking>1</DayWorking>
+        </WeekDay>
+        <WeekDay>
+          <DayType>3</DayType>
+          <DayWorking>1</DayWorking>
+        </WeekDay>
+        <WeekDay>
+          <DayType>4</DayType>
+          <DayWorking>1</DayWorking>
+        </WeekDay>
+        <WeekDay>
+          <DayType>5</DayType>
+          <DayWorking>1</DayWorking>
+        </WeekDay>
+        <WeekDay>
+          <DayType>6</DayType>
+          <DayWorking>1</DayWorking>
+        </WeekDay>
+        <WeekDay>
+          <DayType>7</DayType>
+          <DayWorking>0</DayWorking>
+        </WeekDay>
+      </WeekDays>
+    </Calendar>
+  </Calendars>
+  <Resources>
+    <Resource>
+      <UID>1</UID>
+      <ID>1</ID>
+      <Name>iOS Lead</Name>
+      <Type>1</Type>
+    </Resource>
+    <Resource>
+      <UID>2</UID>
+      <ID>2</ID>
+      <Name>iOS Dev 1</Name>
+      <Type>1</Type>
+    </Resource>
+    <Resource>
+      <UID>3</UID>
+      <ID>3</ID>
+      <Name>iOS Dev 2</Name>
+      <Type>1</Type>
+    </Resource>
+    <Resource>
+      <UID>4</UID>
+      <ID>4</ID>
+      <Name>Android Lead</Name>
+      <Type>1</Type>
+    </Resource>
+    <Resource>
+      <UID>5</UID>
+      <ID>5</ID>
+      <Name>Android Dev 1</Name>
+      <Type>1</Type>
+    </Resource>
+    <Resource>
+      <UID>6</UID>
+      <ID>6</ID>
+      <Name>Android Dev 2</Name>
+      <Type>1</Type>
+    </Resource>
+    <Resource>
+      <UID>7</UID>
+      <ID>7</ID>
+      <Name>Web Lead</Name>
+      <Type>1</Type>
+    </Resource>
+    <Resource>
+      <UID>8</UID>
+      <ID>8</ID>
+      <Name>Frontend Dev 1</Name>
+      <Type>1</Type>
+    </Resource>
+    <Resource>
+      <UID>9</UID>
+      <ID>9</ID>
+      <Name>Frontend Dev 2</Name>
+      <Type>1</Type>
+    </Resource>
+    <Resource>
+      <UID>10</UID>
+      <ID>10</ID>
+      <Name>Backend Dev 1</Name>
+      <Type>1</Type>
+    </Resource>
+    <Resource>
+      <UID>11</UID>
+      <ID>11</ID>
+      <Name>Backend Dev 2</Name>
+      <Type>1</Type>
+    </Resource>
+    <Resource>
+      <UID>12</UID>
+      <ID>12</ID>
+      <Name>UI/UX Designer</Name>
+      <Type>1</Type>
+    </Resource>
+    <Resource>
+      <UID>13</UID>
+      <ID>13</ID>
+      <Name>QA Engineer</Name>
+      <Type>1</Type>
+    </Resource>
+    <Resource>
+      <UID>14</UID>
+      <ID>14</ID>
+      <Name>DevOps Engineer</Name>
+      <Type>1</Type>
+    </Resource>
+  </Resources>
+  <Tasks>
+    <Task>
+      <UID>1</UID>
+      <ID>1</ID>
+      <Name>Phase 1: Project Initiation &amp; Planning</Name>
+      <Summary>1</Summary>
+      <Duration>PT0H0M0S</Duration>
+    </Task>
+    <Task>
+      <UID>2</UID>
+      <ID>2</ID>
+      <Name>Project Kickoff Meeting</Name>
+      <Duration>PT8H0M0S</Duration>
+    </Task>
+    <Task>
+      <UID>3</UID>
+      <ID>3</ID>
+      <Name>Requirements Gathering</Name>
+      <Duration>PT40H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>2</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>4</UID>
+      <ID>4</ID>
+      <Name>Design Workshop</Name>
+      <Duration>PT24H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>3</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>5</UID>
+      <ID>5</ID>
+      <Name>Technical Architecture Design</Name>
+      <Duration>PT40H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>3</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>6</UID>
+      <ID>6</ID>
+      <Name>Project Planning &amp; Resource Allocation</Name>
+      <Duration>PT24H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>5</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>7</UID>
+      <ID>7</ID>
+      <Name>Phase 2: Design Phase</Name>
+      <Summary>1</Summary>
+      <Duration>PT0H0M0S</Duration>
+    </Task>
+    <Task>
+      <UID>8</UID>
+      <ID>8</ID>
+      <Name>Wireframes &amp; Mockups</Name>
+      <Duration>PT56H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>6</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>9</UID>
+      <ID>9</ID>
+      <Name>UI/UX Design</Name>
+      <Duration>PT80H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>8</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>10</UID>
+      <ID>10</ID>
+      <Name>Design Review &amp; Approval</Name>
+      <Duration>PT16H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>9</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>11</UID>
+      <ID>11</ID>
+      <Name>Design System Documentation</Name>
+      <Duration>PT40H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>10</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>12</UID>
+      <ID>12</ID>
+      <Name>Phase 3: iOS Development</Name>
+      <Summary>1</Summary>
+      <Duration>PT0H0M0S</Duration>
+    </Task>
+    <Task>
+      <UID>13</UID>
+      <ID>13</ID>
+      <Name>iOS Project Setup &amp; Configuration</Name>
+      <Duration>PT24H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>10</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>14</UID>
+      <ID>14</ID>
+      <Name>iOS: Authentication Module</Name>
+      <Duration>PT64H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>13</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>15</UID>
+      <ID>15</ID>
+      <Name>iOS: Home Screen &amp; Navigation</Name>
+      <Duration>PT56H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>13</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>16</UID>
+      <ID>16</ID>
+      <Name>iOS: User Profile Features</Name>
+      <Duration>PT48H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>14</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>17</UID>
+      <ID>17</ID>
+      <Name>iOS: Push Notifications</Name>
+      <Duration>PT40H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>15</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>18</UID>
+      <ID>18</ID>
+      <Name>iOS: API Integration</Name>
+      <Duration>PT80H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>13</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>19</UID>
+      <ID>19</ID>
+      <Name>iOS: Offline Mode &amp; Caching</Name>
+      <Duration>PT64H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>18</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>20</UID>
+      <ID>20</ID>
+      <Name>iOS: UI Polish &amp; Animations</Name>
+      <Duration>PT40H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>17</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>21</UID>
+      <ID>21</ID>
+      <Name>Phase 3: Android Development</Name>
+      <Summary>1</Summary>
+      <Duration>PT0H0M0S</Duration>
+    </Task>
+    <Task>
+      <UID>22</UID>
+      <ID>22</ID>
+      <Name>Android Project Setup &amp; Configuration</Name>
+      <Duration>PT24H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>10</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>23</UID>
+      <ID>23</ID>
+      <Name>Android: Authentication Module</Name>
+      <Duration>PT64H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>22</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>24</UID>
+      <ID>24</ID>
+      <Name>Android: Home Screen &amp; Navigation</Name>
+      <Duration>PT56H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>22</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>25</UID>
+      <ID>25</ID>
+      <Name>Android: User Profile Features</Name>
+      <Duration>PT48H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>23</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>26</UID>
+      <ID>26</ID>
+      <Name>Android: Push Notifications</Name>
+      <Duration>PT40H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>24</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>27</UID>
+      <ID>27</ID>
+      <Name>Android: API Integration</Name>
+      <Duration>PT80H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>22</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>28</UID>
+      <ID>28</ID>
+      <Name>Android: Offline Mode &amp; Caching</Name>
+      <Duration>PT64H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>27</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>29</UID>
+      <ID>29</ID>
+      <Name>Android: Material Design Polish</Name>
+      <Duration>PT40H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>26</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>30</UID>
+      <ID>30</ID>
+      <Name>Phase 3: Web Development</Name>
+      <Summary>1</Summary>
+      <Duration>PT0H0M0S</Duration>
+    </Task>
+    <Task>
+      <UID>31</UID>
+      <ID>31</ID>
+      <Name>Backend: Project Setup &amp; Database Design</Name>
+      <Duration>PT32H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>10</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>32</UID>
+      <ID>32</ID>
+      <Name>Backend: Authentication &amp; Authorization API</Name>
+      <Duration>PT64H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>31</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>33</UID>
+      <ID>33</ID>
+      <Name>Backend: User Management API</Name>
+      <Duration>PT56H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>31</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>34</UID>
+      <ID>34</ID>
+      <Name>Backend: Core Business Logic APIs</Name>
+      <Duration>PT96H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>32</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>35</UID>
+      <ID>35</ID>
+      <Name>Backend: Notification Service</Name>
+      <Duration>PT48H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>33</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>36</UID>
+      <ID>36</ID>
+      <Name>Backend: API Testing &amp; Documentation</Name>
+      <Duration>PT40H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>34</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>37</UID>
+      <ID>37</ID>
+      <Name>Frontend: Project Setup &amp; Build Configuration</Name>
+      <Duration>PT24H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>10</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>38</UID>
+      <ID>38</ID>
+      <Name>Frontend: Authentication Pages</Name>
+      <Duration>PT56H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>37</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>39</UID>
+      <ID>39</ID>
+      <Name>Frontend: Dashboard &amp; Navigation</Name>
+      <Duration>PT64H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>37</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>40</UID>
+      <ID>40</ID>
+      <Name>Frontend: User Profile Pages</Name>
+      <Duration>PT48H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>38</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>41</UID>
+      <ID>41</ID>
+      <Name>Frontend: Core Features Implementation</Name>
+      <Duration>PT96H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>39</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>42</UID>
+      <ID>42</ID>
+      <Name>Frontend: Responsive Design &amp; Mobile Views</Name>
+      <Duration>PT56H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>41</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>43</UID>
+      <ID>43</ID>
+      <Name>Frontend: API Integration</Name>
+      <Duration>PT64H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>32</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>44</UID>
+      <ID>44</ID>
+      <Name>Phase 4: Testing &amp; Quality Assurance</Name>
+      <Summary>1</Summary>
+      <Duration>PT0H0M0S</Duration>
+    </Task>
+    <Task>
+      <UID>45</UID>
+      <ID>45</ID>
+      <Name>Unit Testing - All Platforms</Name>
+      <Duration>PT64H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>20</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>46</UID>
+      <ID>46</ID>
+      <Name>Integration Testing</Name>
+      <Duration>PT80H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>45</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>47</UID>
+      <ID>47</ID>
+      <Name>UI/UX Testing</Name>
+      <Duration>PT56H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>46</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>48</UID>
+      <ID>48</ID>
+      <Name>Performance &amp; Load Testing</Name>
+      <Duration>PT48H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>46</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>49</UID>
+      <ID>49</ID>
+      <Name>Security Testing &amp; Audit</Name>
+      <Duration>PT40H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>48</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>50</UID>
+      <ID>50</ID>
+      <Name>iOS: Bug Fixes</Name>
+      <Duration>PT56H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>47</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>51</UID>
+      <ID>51</ID>
+      <Name>Android: Bug Fixes</Name>
+      <Duration>PT56H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>47</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>52</UID>
+      <ID>52</ID>
+      <Name>Web: Bug Fixes</Name>
+      <Duration>PT56H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>47</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>53</UID>
+      <ID>53</ID>
+      <Name>Regression Testing</Name>
+      <Duration>PT40H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>50</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>54</UID>
+      <ID>54</ID>
+      <Name>Phase 5: Deployment &amp; Launch</Name>
+      <Summary>1</Summary>
+      <Duration>PT0H0M0S</Duration>
+    </Task>
+    <Task>
+      <UID>55</UID>
+      <ID>55</ID>
+      <Name>CI/CD Pipeline Setup</Name>
+      <Duration>PT40H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>53</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>56</UID>
+      <ID>56</ID>
+      <Name>Staging Environment Deployment</Name>
+      <Duration>PT24H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>55</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>57</UID>
+      <ID>57</ID>
+      <Name>Beta Testing with Users</Name>
+      <Duration>PT80H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>56</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>58</UID>
+      <ID>58</ID>
+      <Name>App Store Submissions Preparation</Name>
+      <Duration>PT40H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>57</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>59</UID>
+      <ID>59</ID>
+      <Name>Play Store Submission Preparation</Name>
+      <Duration>PT40H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>57</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>60</UID>
+      <ID>60</ID>
+      <Name>Production Web Deployment</Name>
+      <Duration>PT16H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>57</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>61</UID>
+      <ID>61</ID>
+      <Name>iOS App Store Submission</Name>
+      <Duration>PT24H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>58</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>62</UID>
+      <ID>62</ID>
+      <Name>Android Play Store Submission</Name>
+      <Duration>PT24H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>59</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>63</UID>
+      <ID>63</ID>
+      <Name>Monitoring &amp; Analytics Setup</Name>
+      <Duration>PT32H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>60</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>64</UID>
+      <ID>64</ID>
+      <Name>Official Launch</Name>
+      <Duration>PT8H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>61</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>65</UID>
+      <ID>65</ID>
+      <Name>Phase 6: Post-Launch Support</Name>
+      <Summary>1</Summary>
+      <Duration>PT0H0M0S</Duration>
+    </Task>
+    <Task>
+      <UID>66</UID>
+      <ID>66</ID>
+      <Name>Monitor Application Performance</Name>
+      <Duration>PT112H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>64</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>67</UID>
+      <ID>67</ID>
+      <Name>Collect &amp; Analyze User Feedback</Name>
+      <Duration>PT112H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>64</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>68</UID>
+      <ID>68</ID>
+      <Name>Critical Bug Fixes &amp; Hotfixes</Name>
+      <Duration>PT56H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>66</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+    <Task>
+      <UID>69</UID>
+      <ID>69</ID>
+      <Name>Final Documentation &amp; Handover</Name>
+      <Duration>PT56H0M0S</Duration>
+      <PredecessorLink>
+        <PredecessorUID>67</PredecessorUID>
+        <Type>1</Type>
+      </PredecessorLink>
+    </Task>
+  </Tasks>
+  <Assignments/>
+</Project>
